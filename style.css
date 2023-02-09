@@ -1,0 +1,91 @@
+body{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 940px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 600px 100px 80px 80px 80px;
+    grid-auto-rows: 50px;
+    column-gap: 0%;
+    margin-bottom: 0%;
+   
+}
+.items{
+    font-size: 26px;
+    font-weight: bold;
+    background-color: gold;
+    padding: 10px;
+    margin-bottom: 0%;
+    padding-left: 50px;
+}
+.items-1{
+    font-size: 18px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+#image{
+    float: right;
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(129, 102, 102);
+    border-radius: 10px;
+    background-color: black;
+    
+
+
+}
+.first-h1{
+    margin-bottom: 0%;
+    color: rgb(22, 22, 22);
+    background-color: coral;
+    margin-top: 0%;
+    padding: 8px;
+    
+}
+
+
+.special{
+    clear: right;
+    background-color: antiquewhite;
+    padding: 8px;
+    margin-bottom: 0%;
+}
+
+#skills{
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 0%;
+    padding: 8px;
+    margin-bottom: 0%;
+}
+.container-last{
+grid-template-columns: 8, 1fr;
+padding: 25px;
+background-color: azure
+}
+
+a{
+   text-decoration: none;
+   color: gold;
+   text-align: center;
+   
+}
+
+a:hover{
+    color:rgb(207, 40, 10);
+
+}
+.paragraph{
+    text-transform: capitalize;
+    padding: 20px;
+    background-color: lightskyblue;
+    margin-top: 0%;
+}
