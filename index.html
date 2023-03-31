@@ -1,60 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Portfolio :Shaik Wazid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="items">Shaik Wazid</div>
-        <div class="items-1"><a href="#aboutme">About Me</a></div>
-        <div class="items-1"><a href="#projects"> Projects</a></div>
-        <div class="items-1"> <a href="#skills">Skills</a></div>
-        <div class="items-1"> <a href="contact.html">Contact</a></div>
-    </div>
+  <!-- Navbar Component -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-info nav-background ">
+   
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class=" navbar-nav ">
+        <li class="nav-item active">
+          <h6><a class="nav-link mr-5 btn-outline-warning rounded text-danger" href="index.html">HOME <span
+                class="sr-only">(current)</span></a></h6>
+        </li>
+        <li class="nav-item">
+          <h6><a class="nav-link mr-5 btn-outline-warning rounded text-danger" href="profile.html">PROFILE</a></h6>
+        </li>
+        <li class="nav-item">
+          <h6><a class="nav-link mr-5 btn-outline-warning rounded text-danger" href="skills.html">SKILLS</a></h6>
+        </li>
+        <li class="nav-item">
+          <h6> <a class="nav-link btn-outline-warning rounded text-danger" href="project.html">PROJECTS</a></h6>
+        </li>
+      </ul>
+
+    </div>
     <div>
-        <h1 class="first-h1" id="aboutme">About Me</h1>
-        <img id="image" src="WAZID1.jpg" alt="SHAIK WAZID">
-
+      <img class="rounded-circle mr-5" src="PROFILE LOGOS/logo.png" width="40px" height="40px" alt="brand logo">
     </div>
-    <div class="paragraph">
-            <p>this is shaik wazid. i am form hyderebad.i completed masters in computer applications from uiversity post graduate college secunderabad(osmania university)</p>
-            <p>i am good at my communicatin skills. And i can speak telugu hindi and english</p>
-            <p>comming to my hobbies playing chess, charoms more over listening to the music most of the time</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae debitis est illo et odit autem eligendi ratione quaerat officiis, nihil sit quo amet officia! Quibusdam, cumque? Temporibus modi eos nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatum atque cum ratione ipsam distinctio possimus maiores, repellat ab ducimus. Libero ipsa repudiandae similique pariatur necessitatibus facere a iure velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ducimus odio incidunt dolores maiores impedit esse sint laudantium mollitia. Expedita asperiores beatae nihil quibusdam magnam? Cupiditate explicabo distinctio quisquam rerum!</p>
-     </div>
-       
+  </nav>
 
-    
-    <div class="special">
-        <h1 id="projects">Projects</h1>
-        <ul>
-            <li>prediction of Diabetes with using Python</li>
-            <li>Fashion Blog</li>
-            <li>Bycycle World</li>
-            <li>Healthy Recipes</li>
-            <li>Colmar Academy</li>
-        </ul>
-    </div>
+  <!-- Navbar Component closed -->
+  
 
-    <div>
-        <h1 id="skills">Skills</h1>
-        <div class="container-last">
-            <img class="images" src="html5 logo.png" alt="html5" width="60px" height="90px">
-            <img class="images" src="css logo.jpg" alt="css" width="60px" height="90px">
-            <img class="images" src="java logo.png" alt="java" width="60px" height="90px">
-            <img class="images" src="js logo.png" alt="java script" width="60px" height="90px">
-            <img class="images" src="git logo.png" alt="git and git hub" width="60px" height="90px">
-            <img class="images" src="command logo.jfif" alt="command line" width="60px" height="90px">
-            <img class="images" src="bootstrap logo.png" alt="bootstrap" width="60px" height="90px">
-            <img class="images" src="React js.png" alt="React js" width="60px" height="90px">
-
+  <div class="card border-dark sm md lg">
+      <img src="backgrounds/background-image-6.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay ">
+        <div class="row">
+             <div class="col-md-8"></div>
+             <div class="col-md-4"><h2 class="btn btn-primary font-italic">HELLO !</h2></div>
         </div>
-    </div>
+        <div class=" mb-3">
+          <div class="row no-gutters">
+            <div class=" col-md-8">
+              <div class="card-body">
+                <h2 class="text-center font-italic  mt-5 text-white">CREATIVE VISUALITY</h2>
+                <h1 class="text-center font-italic  mb-5 text-warning">STUNNING WEBSITES</h1>
+                  <div class="p-5">
+                    <h3 class="text-center text-success sm md lg">$ PORTFOLIO </h3>
+                  <h4 class="card-text"><small class="text-white sm md lg">Yes ! I did a Portfolio Project which is in
+                      Codecademy .I build the Portfolio with
+                      using - HTML,CSS and Bootstrap </small></h4>  
+                      <a href="project.html"> <button type="button" class="btn btn-outline-success mb-5 text-center"><h6>To More</h6></button></a>
+                  </div>  
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              
+            </div>
+          </div>
+       </div>
+</div>
+<div>
+  <img src="backgrounds/background-image-6-1.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay "></div>
+</div>
+
+
+<div>
+  <img src="backgrounds/background-image-6-1.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay "></div>
+</div>
+ 
+
+  <!-- Bootstrap's JavaScript Files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
